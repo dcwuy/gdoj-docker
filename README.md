@@ -4,6 +4,8 @@ This repository contains the Docker files to run the [GDOJ](https://github.com/d
 
 This is a fork from [vnoj-docker](https://github.com/VNOI-Admin/vnoj-docker) based on [dmoj-docker](https://github.com/Ninjaclasher/dmoj-docker).
 
+This repository is created to ease the update process of our server from the mainstream repository and not to develop as a separate branch.
+
 ## Installation
 
 First, [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docker.com/compose/) must be installed. Installation instructions can be found on their respective websites.
