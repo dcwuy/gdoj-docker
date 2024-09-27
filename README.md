@@ -1,8 +1,8 @@
-# VNOJ Docker
+# GDOJ Docker
 
-This repository contains the Docker files to run the [VNOJ](https://github.com/VNOI-Admin/OJ).
+This repository contains the Docker files to run the [GDOJ](https://github.com/dcwuy/OJ).
 
-Based on [dmoj-docker](https://github.com/Ninjaclasher/dmoj-docker).
+This is a fork from [vnoj-docker](https://github.com/VNOI-Admin/vnoj-docker) based on [dmoj-docker](https://github.com/Ninjaclasher/dmoj-docker).
 
 ## Installation
 
@@ -11,8 +11,8 @@ First, [Docker](https://www.docker.com/) and [Docker Compose](https://docs.docke
 Clone the repository:
 
 ```sh
-$ git clone --recursive https://github.com/VNOI-Admin/vnoj-docker.git
-$ cd vnoj-docker/dmoj
+$ git clone --recursive https://github.com/dcwuy/gdoj-docker.git
+$ cd gdoj-docker/dmoj
 ```
 
 From now on, it is assumed you are in the `dmoj` directory.
@@ -97,7 +97,7 @@ The bridge instance is included in this Docker setup and should be running once 
 
 ### Migrating
 
-As the VNOJ site is a Django app, you may need to migrate whenever you update. Assuming the site container is running, running the following command should suffice:
+As the GDOJ site is a Django app, you may need to migrate whenever you update. Assuming the site container is running, running the following command should suffice:
 
 ```sh
 $ ./scripts/migrate
